@@ -9,34 +9,52 @@ search_tag: Partner
 
 ---
 
-# Voucherify
+## About Voucherify
 
-> [Voucherify](https://www.voucherify.io/) is an all-in-one promotional platform that allows for personalized campaigns and loyalty programs that drive user engagement and retention. 
+Voucherify is an incentive optimization engine that enables you to manage promotions, coupons, loyalty programs, referrals, and personalized incentives.
 
-_This integration is maintained by Voucherify._
+With Braze, you can deliver dynamic incentives within campaigns and Canvases, trigger incentive actions, and synchronize promotion data between systems—without building custom backend systems.
 
-## About the integration
-
-<iframe src="https://player.vimeo.com/video/745340934?h=17ceae8c3c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-The Braze and Voucherify integration allows you to grow your promotional campaigns by sending unique codes through the use of:
-
-- [Connected Content]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_fetching_data_through_braze_connected_content/): Add unique codes to Braze campaigns via Braze Connected Content. With this feature, you can use Voucherify discount coupons, gift card campaigns, loyalty cards, and referral codes.
-- [Custom attributes]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_distribution_with_braze_custom_attributes/): Custom attributes enable you to assign Voucherify unique coupons, gift cards, loyalty cards, and referral codes to users' profiles in Braze. As a result, you can send attached codes and attributes in email campaigns and share them with your users.
-- [Promotion codes lists]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_using_braze_promotion_codes_list/): Use Voucherify generated promotion codes and upload them into Braze.
+---
 
 ## Prerequisites
 
-| Requirement | Description |
-| ----------- | ----------- |
-|Voucherify account | A Voucherify account is required to take advantage of this partnership. |
-| Braze REST API key | A Braze REST API key with `users.track` permissions. <br><br> This can be created in the Braze dashboard from **Settings** > **API Keys**. |
-{: .reset-td-br-1 .reset-td-br-2 role="presentation" }
+To use Voucherify with Braze, you will need:
 
-## Integration
+- A Voucherify account  
+- A Braze account  
+- Voucherify API credentials  
+- Access to Braze Connected Content and/or custom attributes  
 
-Visit the following articles for additional resources on the Voucherify integration:
-- [Fetching data through Braze Connected Content]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_fetching_data_through_braze_connected_content/)
-- [Distribution with Braze custom attributes]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_distribution_with_braze_custom_attributes/)
-- [Using Braze promotion codes]({{site.baseurl}}/partners/ecommerce/loyalty/voucherify/voucherify_using_braze_promotion_codes_list/)
+---
 
+## Integration overview
+
+You can integrate Voucherify with Braze to:
+
+- Fetch incentives in real time using Connected Content  
+- Trigger incentive actions from Braze  
+- Send events to Braze for segmentation  
+- Store incentive data in Braze user profiles  
+- Send custom attributes to Braze with personal voucher codes  
+
+---
+
+## Integration resources
+
+Use the following resources to set up and manage your integration:
+
+- [Braze – Voucherify Overview](https://docs.voucherify.io/integrations/braze-overview): Overview of the integration and supported use cases.  
+- [Stream Events to Braze](https://docs.voucherify.io/integrations/stream-events-to-braze): Send Voucherify events (such as redemptions) to Braze.  
+- [Send Data from Braze to Voucherify](https://docs.voucherify.io/integrations/send-data-from-braze): Trigger Voucherify actions from Braze campaigns.  
+- [Braze Connected Content Overview](https://docs.voucherify.io/integrations/braze-connected-content-overview): Fetch incentives dynamically into Braze messages.  
+- [Distribute to Braze Custom Attributes](https://docs.voucherify.io/integrations/braze-custom-attributes): Store Voucherify data in Braze user profiles.  
+- [Export Coupons to Braze](https://docs.voucherify.io/integrations/braze-promotion-codes): Sync promotion codes for use in Braze campaigns.  
+
+---
+
+## Additional resources
+
+- [Speedrunning loyalty without leaving Braze](https://www.voucherify.io/blog/speedrunning-loyalty-without-leaving-braze): Learn how to run fast, experiment-driven loyalty programs in Braze using Voucherify to power incentives and validation logic.  
+
+- [Incentive Maturity Scorecard](https://scorecard.voucherify.io/braze): Assess your incentive strategy and identify opportunities for optimization.  
