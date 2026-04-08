@@ -56,5 +56,4 @@ Use the following resources to set up and manage your integration:
 ## Additional resources
 
 - [Speedrunning loyalty without leaving Braze](https://www.voucherify.io/blog/speedrunning-loyalty-without-leaving-braze): Learn how to run fast, experiment-driven loyalty programs in Braze using Voucherify to power incentives and validation logic.  
-
 - [Incentive Maturity Scorecard](https://scorecard.voucherify.io/braze): Assess your incentive strategy and identify opportunities for optimization.  
